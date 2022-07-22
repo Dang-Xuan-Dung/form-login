@@ -96,8 +96,8 @@ input:focus::-webkit-input-placeholder {
     position: relative;
     display: flex;
     height: 70px;
-    max-width: 252px;
-    margin: 0 auto;
+    width: 500px;
+    transform: translateX(89px);
     align-items: center;
 
 }
@@ -105,8 +105,8 @@ input:focus::-webkit-input-placeholder {
 .signup .gender h4 {
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+
 }
 
 .signup .gender input {
