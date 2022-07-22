@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 6_4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="" class="signup">
+          <div class="avatar">
+            <h1>Sign-up</h1>
+            <img src="./assets/images/user.jpg" alt="gf" class="avt_img">
+          </div>
+          <div class="signup_field">
+            <h4>Full name</h4>
+            <input
+              type="text"
+              class="signup_input fullname"
+              placeholder="Enter Fullname"
+            />
+          </div>
+          <div class="signup_field">
+            <h4>Email</h4>
+            <input
+              type="email"
+              class="signup_input email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="signup_field">
+            <h4>Password</h4>
+            <input
+              type="password"
+              class="signup_input password"
+              placeholder="Enter password"
+            />
+          </div>
+          <div class="signup_field">
+            <h4>Password confirm</h4>
+            <input
+              type="password"
+              class="signup_input password"
+              placeholder="Retype your password"
+            />
+          </div>
+
+          <div class="signup_field gender">
+            <h4>Gender</h4>
+            <label for="man">Man</label>
+            <input type="radio" name="gender" id="man" value="man" />
+            <label for="women">Women</label>
+            <input type="radio" name="gender" value="women" checked />
+            <label for="others">Others</label>
+            <input type="radio" name="gender" value="others" />
+          </div>
+
+          <div class="signup_field born-time">
+            <h4>Date Of Birth</h4>
+            <input type="date" name="" id="" />
+          </div>
+
+          <button class="btn" type="submit">Sign-up</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
